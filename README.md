@@ -14,14 +14,7 @@ Our dataset, referred to as the MINE Lab dataset, was collected in a controlled 
 Five participants performed six activities within 30 seconds, including standing up and squatting (Act.1), raising one arm overhead to the left or right (Act. 2 and Act. 3), forward clapping (Act. 4), and left and right front kicks (Act. 5 and Act. 6), resulting in 216 original samples. To increase the number of training samples, a sliding-window sampling method was applied during preprocessing, with a window size of 1000 and a stride of 150. This sampling strategy generates multiple data instances from each original recording, increasing the dataset size from 216 original samples to 1,323 sampled data instances, as shown as follows: 
 <img width="584" height="332" alt="image" src="https://github.com/user-attachments/assets/4deedfd3-ae43-4d50-9293-091bbde34598" />
 
-SUMMARY OF THREE DATASETS
-Dataset	Environments	Tx x Rx	Activities	Subject	Samples	Data dimension
-MultiEnv[37] 
-Office, Hall, NLOS	1x3	6	30	3000	850×30×3
-Widar 3.0 [28]
-Office, Hall, Classroom	3x1	6	5	2500	250×114×3
-MINE lab	Lab office	3x1	6	5	216	1000×30×3
-
+<img width="859" height="159" alt="image" src="https://github.com/user-attachments/assets/672e830c-9f2d-403e-95f2-def4fa3fd154" />
 
 Our dataset after processing can be downloaded at: https://drive.google.com/drive/folders/1gR5b0refbE1ZpF2iPrm7yeh7ZlQxANzK?usp=drive_link
 
