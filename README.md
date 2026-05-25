@@ -3,6 +3,8 @@
 ## Introduction
 SD²A-Net (Static–Dynamic Decomposition with Attention Network): a robust cross-domain framework that decouples motion-induced dynamics from background interference. The framework utilizes a Gaussian Mixture Model (GMM) on CSI amplitude to isolate motion variations and Singular Value Decomposition (SVD) on CSI phase to suppress low-rank environmental structures. These refined features are processed via a Dual-stream Attention-CNN to capture global temporal dependencies and local hierarchical patterns. 
 Our paper now under review in IEEE IEEE Sensors Journal. The full source code will upload after the paper have been published. 
+<img width="446" height="275" alt="image" src="https://github.com/user-attachments/assets/38c79cd2-d02e-4cb3-b509-0620643ae743" />
+
 
 ## Run
 ### Download Processed Data
