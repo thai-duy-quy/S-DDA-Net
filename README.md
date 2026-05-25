@@ -1,23 +1,8 @@
 
-# Enhanced Wi-Fi Sensing: Leveraging Phase and Amplitude of CSI for Superior Accuracy
+# SD²A-Net: Attention-Enhanced Static–Dynamic Wi-Fi CSI Decomposition for Cross-Domain Human Activity Recognition
 ## Introduction
-PA-CSI is the library for WiFi CSI HAR that leverages both amplitude and phase features from Wi-Fi signals, incorporating attention mechanisms across both temporal and channel dimensions, along with multi-scale convolutional neural networks (CNNs). It is implemented by PyTorch and Tensorflow. This is our paper [*Enhanced Human Activity Recognition Using Wi-Fi Sensing: Leveraging Phase and Amplitude with Attention Mechanisms*](https://doi.org/10.3390/s25041038). 
-
-```
-@article{yang2023benchmark,
-  title={Enhanced Human Activity Recognition Using Wi-Fi Sensing: Leveraging Phase and Amplitude with Attention Mechanisms},
-  author={Thai Duy Quy, Chih-Yang Lin, Timothy K. Shih},
-  year={2025}
-}
-```
-
-## Requirements
-
-1. Install `pytorch` and CUDA (we use `torch=2.5.1` and `cu124`).
-2. Install `tensorflow` and CUDA (we use `tensorflow=2.10.0` and `cu124`).
-3. `pip install -r requirements.txt`
-
-**Note that the project runs perfectly in Windows OS (`Windows`). If you plan to use `Linux` or `Ubuntu` to run the codes, you need to modify some symbols in the code regarding the dataset directory for the CSI data loading.**
+SD²A-Net (Static–Dynamic Decomposition with Attention Network): a robust cross-domain framework that decouples motion-induced dynamics from background interference. The framework utilizes a Gaussian Mixture Model (GMM) on CSI amplitude to isolate motion variations and Singular Value Decomposition (SVD) on CSI phase to suppress low-rank environmental structures. These refined features are processed via a Dual-stream Attention-CNN to capture global temporal dependencies and local hierarchical patterns. 
+Our paper now under review in IEEE IEEE Sensors Journal. The full source code will upload after the paper have been published. 
 
 ## Run
 ### Download Processed Data
